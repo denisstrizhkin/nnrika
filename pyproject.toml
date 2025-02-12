@@ -5,11 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "einops>=0.8.1",
+    "pillow>=11.0.0",
+    "pyvips>=2.2.3",
     "torch>=2.6.0",
     "torchaudio>=2.6.0",
     "torchvision>=0.21.0",
+    "transformers>=4.48.3",
 ]
 
 [[tool.uv.index]]
 url = "https://download.pytorch.org/whl/cpu"
-default = true
+default = false
